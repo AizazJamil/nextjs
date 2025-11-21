@@ -1,0 +1,20 @@
+{
+  "pages": {
+    "/(content)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(content)/layout.css",
+      "static/chunks/app/(content)/layout.js"
+    ],
+    "/(content)/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/not-found.js"
+    ],
+    "/(content)/news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/page.js"
+    ]
+  }
+}
